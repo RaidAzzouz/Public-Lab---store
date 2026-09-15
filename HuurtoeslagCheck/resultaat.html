@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HuurtoeslagCheck — resultaat</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Nunito+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="pagina">
+  <header class="kop">
+    <h1>HuurtoeslagCheck</h1>
+  </header>
+
+  <main class="kaart" id="resultaat-container" hidden>
+    <span class="badge" id="badge"></span>
+    <h2 id="titel"></h2>
+    <ul class="uitleg-lijst" id="uitleg-lijst"></ul>
+
+    <h3>Wat kun je nu doen?</h3>
+    <ul class="vervolgstappen-lijst" id="vervolgstappen-lijst"></ul>
+
+    <div class="disclaimer-box" id="disclaimer-box"></div>
+
+    <a class="knop knop-secundair opnieuw-link" href="index.html">Vragenlijst opnieuw invullen</a>
+  </main>
+
+  <main class="kaart" id="geen-antwoorden" hidden>
+    <h2>Je hebt nog geen vragenlijst ingevuld</h2>
+    <p>Er zijn geen antwoorden gevonden. Vul eerst de vragenlijst in om een indicatie te krijgen.</p>
+    <a class="knop knop-primair" href="index.html">Naar de vragenlijst</a>
+  </main>
+
+  <p class="privacy-noot">Je antwoorden worden nergens opgeslagen. Na het sluiten van deze pagina is alles weg.</p>
+</div>
+
+<script src="dist/rules.js"></script>
+<script src="dist/result.js"></script>
+</body>
+</html>
