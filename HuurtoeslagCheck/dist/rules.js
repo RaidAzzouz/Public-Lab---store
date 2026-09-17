@@ -11,7 +11,7 @@ const KWALITEITSKORTINGSGRENS_18_20 = 454.47;
 // dan een simpele ja/nee-grens.
 const INKOMENSGRENS_COMFORTABEL = 31750;
 const INKOMENSGRENS_RUIM = 60525;
-const PROEFBEREKENING_URL = "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/toeslagen/proefberekening_toeslagen";
+const PROEFBEREKENING_URL = "https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/hulpmiddel-proefberekening-toeslagen";
 const ALTIJD_VERVOLGSTAPPEN = [
     `Doe de officiële proefberekening op de site van de Belastingdienst: ${PROEFBEREKENING_URL}`,
     "Kom je er niet uit? Vraag gratis hulp bij de bibliotheek of het gemeenteloket bij jou in de buurt.",
