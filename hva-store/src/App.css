@@ -52,3 +52,9 @@
 .card-price { font-weight: 800; color: #4f46e5; margin-bottom: 0.2rem; }
 .card-stock { font-size: 0.8rem; font-weight: 600; color: #16a34a; }
 .card-stock.out { color: #dc2626; }
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
